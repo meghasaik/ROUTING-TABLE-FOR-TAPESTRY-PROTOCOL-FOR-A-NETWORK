@@ -1,0 +1,9 @@
+{application,proj2,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"proj2"},
+              {modules,['Elixir.ActorFunc','Elixir.GossipProtocol',
+                        'Elixir.Init_protocol','Elixir.Initialize_Actors',
+                        'Elixir.Proj2','Elixir.PushsumProtocol',
+                        'Elixir.Topologies']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
